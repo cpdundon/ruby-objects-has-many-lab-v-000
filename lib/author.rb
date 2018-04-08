@@ -3,6 +3,10 @@ class Author
   
   @@post_count
   
+  def self.post_count
+    @@post_count
+  end
+  
   def initialize(name)
     @name = name
     @posts = []

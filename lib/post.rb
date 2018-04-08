@@ -9,5 +9,6 @@ class Post
     ret = author.name
     
     puts ret
+    ret
   end
 end

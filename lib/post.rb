@@ -6,6 +6,8 @@ class Post
   end
   
   def author_name
-    author.name
+    ret = author.name
+    
+    puts ret
   end
 end

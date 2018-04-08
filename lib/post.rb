@@ -2,13 +2,11 @@ class Post
   attr_accessor :title, :author
   
   def initialize(title)
-    @title = title  
+    @title = title 
+    author = nil
   end
   
   def author_name
-    ret = author.name
-    
-    puts ret
-    ret
+    author.name
   end
 end

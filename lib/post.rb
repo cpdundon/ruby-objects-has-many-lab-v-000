@@ -3,7 +3,7 @@ class Post
   
   def initialize(title)
     @title = title 
-    author = nil
+    @author = nil
   end
   
   def author_name
